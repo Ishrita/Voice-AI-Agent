@@ -5,15 +5,15 @@ A voice-in, voice-out AI agent that listens to you, reasons with an LLM, decides
 This isn't just a chatbot with a microphone bolted on. It's a full pipeline:
 
 ```
-🎙️ Microphone Input
+Microphone Input
       ↓
-📝 Speech-to-Text (Faster Whisper)
+Speech-to-Text (Faster Whisper)
       ↓
-🧠 LLM Reasoning (Llama 3.2 via Ollama)
+LLM Reasoning (Llama 3.2 via Ollama)
       ↓
-🔧 Tool Calling (Python functions, if needed)
+Tool Calling (Python functions, if needed)
       ↓
-🔊 Text-to-Speech (Piper TTS)
+Text-to-Speech (Piper TTS)
       ↓
 Spoken response
 ```
